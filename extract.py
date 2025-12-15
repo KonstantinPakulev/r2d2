@@ -8,8 +8,8 @@ from PIL import Image
 import numpy as np
 import torch
 
-from tools import common
-from tools.dataloader import norm_RGB
+from .tools import common
+from .tools.dataloader import norm_RGB
 from nets.patchnet import *
 
 
