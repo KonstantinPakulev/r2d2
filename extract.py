@@ -10,7 +10,7 @@ import torch
 
 from .tools import common
 from .tools.dataloader import norm_RGB
-from nets.patchnet import *
+from .nets.patchnet import *
 
 
 def load_network(model_fn): 
